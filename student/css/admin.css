@@ -1,0 +1,87 @@
+.d{
+position:absolute;
+width:100%;
+}
+*{
+scroll-behavior: smooth;
+    margin:0;
+    padding:0;
+}
+body{
+    scroll-behavior: smooth;
+
+    height:80vh;
+}
+.navsbar{
+    position: sticky;
+    background-color: black;
+    color:blanchedalmond;
+    width:100%;
+    display:flex;
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+.brand{
+    margin-left:1em;
+font-size:30px;
+
+}
+.navs-items{
+    width:95%;
+font-size:22px;
+margin-left:7%;
+margin-top:auto;
+margin-bottom:auto;    
+padding-left:5px;
+padding-right:5px;
+}
+
+.right{
+    margin-right:25px;
+    margin-left:9%;
+    font-size:22px;
+    
+    margin-top:auto;
+    margin-bottom:auto;
+}
+a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding:20px;
+    color:whitesmoke;
+}
+.cardheader{
+    font-size: 30px;
+}
+.card{
+    width:30%;
+    border-radius:22px;
+}
+.card-body{
+    padding-top:10px;
+    padding-left:45px;
+    padding-right:45px;
+    padding-bottom:30px;
+    background-color: whitesmoke;
+} 
+.form_label{
+    font-size:22px;
+    padding-top:20px;
+    display:block;
+}
+.form_input{
+    font-size:18px;
+    padding-left:5px;
+
+    padding-top:5px;
+    padding-bottom:5px;
+    width:100%;
+}
+
+.input_fields{
+    padding:50px;
+}
+button{
+    border-radius: 7px;
+}
